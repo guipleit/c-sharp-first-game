@@ -12,7 +12,7 @@ void game()
         string input = Console.ReadLine()!;
         if (input == "exit")
         {
-            Environment.Exit(0);
+            Environment.Exit(0); // Estava tentando fechar o console sem aparecer o código de exit, mas acho que não é possível em um ambiente de desenvolvimento.
         }
         else
         {
